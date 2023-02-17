@@ -1,0 +1,143 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0px 5%;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    color: #e5e7eb;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.hero{
+    background-color:#1f2937 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.hero-main{
+    padding: 0px 5%;
+}
+.hero-side{ 
+    padding: 0px 5%;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-sec-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signup{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color:#e5e7eb ;
+    font-weight: bolder;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    margin-right: 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.img-group{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+.img-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width:300px;
+}
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    
+    padding: 60px 50px;
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+blockquote p {
+    padding: 15px;
+    font-size: 36px;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+.call-to{
+    width: 850px;
+    background-color: #3882f6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(blue,rgb(121, 121, 255)e, alpha);
+    
+}
+.singup-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-call{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text-click{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 0 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin-top: 60px;
+}
